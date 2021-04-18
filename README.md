@@ -1,4 +1,4 @@
-# ** Rover Camp Ecommerce App **
+# ** Camp Rover Ecommerce App **
 
 #### View Github Pages site [here](https://katyacano.github.io/milestone-project-3/)
 #### View Heroku deployed app [here](https://kc-milestone-3-project.herokuapp.com/)  
