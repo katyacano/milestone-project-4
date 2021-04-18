@@ -27,31 +27,35 @@
 
 <br/>
 
-## Site User Goals
+## Visitor Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        1        | Shopper   |   View list of products    | Select some to purchase|
-|        2        | Shopper   | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
+|        1        | Visitor   |   Register for an account and have a personal profile    | Have a personal site account where their personal information can be stored |
+|        2        | Visitor   | Easily log in or out | Quickly access personal details of account, previous orders, etc. |
+|        3        | Visitor   |   Recover a lost or forgotten password  | Never lose access to shopping account and details |
+|        4        | Visitor   |   Receive an email confirmation of account setup    | Verify that account was set up correctly |
+
 
  <br/>
 
  ## Site Owner Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        1        | Shopper   |   View list of products    | Select some to purchase|
-|        2        | Shopper   | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
+|        1        | Owner   | Add products    | Continously update the store with more products and services customers need and want|
+|        2        | Owner   | Edit products | Change product and service details, prices, and descriptions as necessary | 
+|        3        | Owner   | Delete a product  | Remove product and service offerings as needed |
 
  <br/>
 
 # Design
 
   ### Color Scheme
-  - The main colors used will be black, gray, white, and a yellow variant (specifically, ##F7DC6F).
+  - The main colors used will be black, gray, white, and a yellow variant (specifically, #F7DC6F).
   ### Typography
   - The font for the logo is Boogaloo from Google Fonts 
-  - The font family used for this site will be Roboto throughout the site, with San Serif as the fallback font if such font family is not being imported. 
+  - The font family used for this site will be Roboto throughout the site, with San Serif as the fallback if such font family is not being imported. 
   ### Imagery 
-  - Imagery is limited on this app to the Home page. Images used here are on a slider, located above the library of dining spots that users can search through. 
+  - Imagery is very important on this app. It will be used to appeal to dog owners specifically and feature a variety of dogs. The images will be professional and acquired from Unsplash. Product images are very important and will be featured with a white background in order to show as much detail.  
 
 <br/>
 <br/>
@@ -88,9 +92,6 @@
 <br/>
 
 ## Frameworks, Libraries & Programs Used
-
-[Materialize 1.0.0:](https://materializecss.com/)
-   - Materialize was used to assist with the responsiveness and styling of the app.
 
 [Google Fonts:](https://fonts.google.com/)
    - Google fonts were used to import the Roboto font family into the style.css file which is used on all pages throughout the project.
@@ -179,6 +180,58 @@ There are three collections in the database- users, categories and spots. The sc
 <br/>
 <br/>
 
+
+## Testing Shopper Goals (UX)  
+
+| User Story No. |  A User Should Be Able To  |  So That They Can  |
+| :-------------:| -------------------------- | ------------------ |
+|        1       | Sort the list of products and services available for purchase | Easily identify them by rating, price and category |
+|        2       | Sort a specific category of product | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
+|        3       | Sort multiple categories of products and services on the same page | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
+|        4       | Easily see search results and number of results | Quickly determine if the store offers the product or service they need |
+|        5       | View list of products    | Select some to purchase|
+|        6       | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
+|        7       | Easily view the total amount of intended purhase  | Know how much they will be spending |
+|        8       | Be able to easily select the product or service they need, including (if applicable) the size and quantity| Make sure they purchase the right products and services|
+|        9       | View items ready for purchase in cart | Understand the total cost of their purchase and ensure they have the right items in cart|
+|        10      | Adjust the quantity of items within the cart  | Easily make changes to their intended purchase if needed |
+|        11      | Easily enter payment information | Complete the purchase|
+|        12      | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
+|        13      | View and order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
+
+<br/>
+
+## Testing Visitor Goals (UX)
+| User Story No.  |  A User Should Be Able To  |  So That They Can  |
+| :-------------: | -------------------------- | ------------------ |
+|        1        |   Register for an account and have a personal profile    | Have a personal site account where their personal information can be stored |
+|        2        |   Easily log in or out | Quickly access personal details of account, previous orders, etc. |
+|        3        |   Recover a lost or forgotten password  | Never lose access to shopping account and details |
+|        4        |   Receive an email confirmation of account setup    | Verify that account was set up correctly |
+
+
+ <br/>
+
+ ## Testing Site Owner Goals
+| User Story No.  |  A User Should Be Able To  |  So That They Can  |
+| :-------------: | -------------------------- | ------------------ |
+|        1        | Add products    | Continously update the store with more products and services customers need and want|
+|        2        | Edit products | Change product and service details, prices, and descriptions as necessary | 
+|        3        | Delete a product  | Remove product and service offerings as needed |
+
+<br/>
+<br/>
+
+
+## Testing Responsiveness
+### Responsiveness of the app was tested using Google Dev tools. 
+- **Issues Found:** When viewing in mobile phone view, Search, Reset, Edit and Delete buttons were pushed off center and distorted.
+- **Fix:** Changed and deleted class for div assigned to Search and Reset buttons. Applied separate div to Edit/Delete buttons. 
+- **Outcome:** Buttons and corresponding text on the side is properly aligned. 
+  
+<br/>
+<br/>
+
 # Code Validation
 
 ## app.py 
@@ -229,49 +282,6 @@ There are three collections in the database- users, categories and spots. The sc
 <br/>
 <br/>
 
-## Testing First Time Visitor Goals (UX)  
-
-### 1. A first time visitor should be able to clearly understand that FoodscapeLA is an app for people who love to dine out in Los Angeles, and want to come together online to exchange first-hand accounts of their dining experiences, while simultaneously creating a library of great dining spots that others using the app can go out and try. 
-- **Outcome:** The Home Page slider and intro paragraph clearly define the app's purpose and functionality.
-### 2. A first time visitor should be able to easily navigate throughout the site in a simple and intuitive way. 
-- **Outcome:** The navigation bar at the top is simple and provides user with clarity as to what functions user can implement. Navigation bar options change while user is logged in, yet functionality is still clear.
-### 3. A first time visitor should be able to quickly find a collection of great dining spots in the city.
-- **Outcome:** The Home page prmonently shows the local dining spots the user can review and search through. 
-### 4. A first time visitor should be able to search for a dining suggestions based on other user’s experiences. 
-- **Outcome:** A search bar is prominently displayed on the Home Page above the Spot directory list. 
-### 5. A first time visitor should easily be able to join the community of app users if they would like to contribute to the dining spots library.
-- **Outcome:** A Register option is available on the navigation bar for first time visitors to register and begin using app.
-### 6. A first-time user should be able to contribute to the library upon registering as a user.
-- **Outcome:** A Log A New Spot option is available on the navigation bar for users to contribute dining spots to the list.
-
-<br/>
-<br/>
-
-## Testing Returning Visitor Goals (UX)
-### 1. A returning visitor’s purpose for using the app would be to either find a dining spot based on other users’ experiences or to add to the library a new dining spot they have personally visited.
-- **Outcome:** Goal accomplished with directory displayed on Home page and Log A New Spot option on navigation bar.
-### 2. A returning visitor should be able to quickly browse through the library of dining spots collected on the app.
-- **Outcome:** Goal accomplished with directory displayed on Home page.
-### 3. A returning visitor should be able to quickly and easily log in to the app.
-- **Outcome:** Goal accomplished with Log In option on navigation bar.
-### 4. A returning visitor should be able to contribute to the library upon logging in. 
-- **Outcome:** Goal accomplished with Log A New Spot option on navigation bar. 
-### 5. A returning visitor should be able to edit his/her own entries to the library.
-- **Outcome:** Goal accomplished with Edit & Delete buttons displayed next to dining spots entered by user. 
-### 6. A returning visitor should be able to view their app profile.
-- **Outcome:** Goal accomplished with Profile option on navigation bar.
-
-<br/>
-<br/>
-
-## Testing Responsiveness
-### Responsiveness of the app was tested using Google Dev tools. 
-- **Issues Found:** When viewing in mobile phone view, Search, Reset, Edit and Delete buttons were pushed off center and distorted.
-- **Fix:** Changed and deleted class for div assigned to Search and Reset buttons. Applied separate div to Edit/Delete buttons. 
-- **Outcome:** Buttons and corresponding text on the side is properly aligned. 
-  
-<br/>
-<br/>
 
 # Deployment to Github Pages
 **To deploy to GitHub Pages use the following steps:**
