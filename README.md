@@ -99,6 +99,9 @@
 [Font Awesome:](https://fontawesome.com/start)
    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
+[Bootstrap:](https://getbootstrap.com/)
+   - Bootstrap was used to assist with the responsiveness and styling of the website.
+
 [jQuery:](https://jquery.com/)
    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 
