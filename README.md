@@ -53,7 +53,7 @@
   - The main colors used will be black, gray, white, and a yellow variant (specifically, #F7DC6F).
   ### Typography
   - The font for the logo is Boogaloo from Google Fonts 
-  - The font family used for this site will be Roboto throughout the site, with San Serif as the fallback if such font family is not being imported. 
+  - The font family used for this site will be Lato throughout the site, with San Serif as the fallback if such font family is not being imported. 
   ### Imagery 
   - Imagery is very important on this app. It will be used to appeal to dog owners specifically and feature a variety of dogs. The images will be professional and acquired from Unsplash. Product images are very important and will be featured with a white background in order to show as much detail.  
 
@@ -138,7 +138,7 @@ There are three collections in the database- users, categories and spots. The sc
 <br/>
 
 # Defensive Design (Security Features)
-- Werkzeug was used for password security. SPecifically: generate_password_hash and check_password_hash
+- Werkzeug was used for password security. Specifically: generate_password_hash and check_password_hash
 - Users are not able to edit or delete other user's entries into the directory.
 - Site prevents visitors from adding a new spot without logging in by checking if user is in session. Redirects to log in page if no user in session.
 
@@ -289,7 +289,7 @@ There are three collections in the database- users, categories and spots. The sc
 # Deployment to Github Pages
 **To deploy to GitHub Pages use the following steps:**
 
-1. Log in to GitHub and locate your GitHub Repository. For this particular project the name is **milestone-project-3**.
+1. Log in to GitHub and locate your GitHub Repository. For this particular project the name is **milestone-project-4**.
 2. At the top of the Repository, find the "Settings" button and select it. 
 3. Scroll down the Settings page and find "GitHub Pages" section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
@@ -347,6 +347,7 @@ Image sources are as follows:
 - Photo #2: People Eating a Meal Around a Table. Photographer: Priscilla Du Preez
 - Photo #3: Burgers Being Served. Photographer: Miha Rekar
 - Photo #4: Food Truck. Photographer: Should Wang
+Product images and descriptions were acquired from Amazon since this is a school project and will not be made public.
 
 <br/>
 
