@@ -24,6 +24,7 @@
 |        11       | Shopper   | Easily enter payment information | Complete the purchase|
 |        12       | Shopper   | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
 |        13       | Shopper   | View and order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
+|        14       | Shopper   | View specific categories of services or products| Quickly find the products they are interested in |
 
 <br/>
 
