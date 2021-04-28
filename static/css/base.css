@@ -117,3 +117,9 @@ body {
         height: calc(100vh - 150px);
     }
 }
+
+.product-image {
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+}

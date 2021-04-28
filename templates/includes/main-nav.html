@@ -1,13 +1,13 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="nav-font nav-link text-black mr-5" href="#">
+            <a class="nav-font nav-link text-black mr-5" href="{% url 'products' %}?category=day_care">
                 Day Care
             </a>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="nav-font nav-link text-black mr-5" href="#">
+            <a class="nav-font nav-link text-black mr-5" href="{% url 'products' %}?category=training">
                 Training
             </a>
             </li>
@@ -17,9 +17,9 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="" class="dropdown-item">Outdoor &amp; Play</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed &amp; Bath</a>
+                <a href="{% url 'products' %}?category=outdoor_play" class="dropdown-item">Outdoor &amp; Play</a>
+                <a href="{% url 'products' %}?category=bed_bath,outdoor_play" class="dropdown-item">All Accessories</a>
             </div>
         </li>
 
@@ -28,9 +28,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Training Offers</a>
-                <a href="" class="dropdown-item">Holiday Offers</a>
-                <a href="" class="dropdown-item">Accessories Clearance</a>
+                <a href="{% url 'products' %}?category=training_offers" class="dropdown-item">Training Offers</a>
+                <a href="{% url 'products' %}?category=holiday_offers" class="dropdown-item">Holiday Offers</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Accessories Clearance</a>
             </div>
         </li>
     </ul>
