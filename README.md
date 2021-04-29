@@ -11,9 +11,7 @@
 ## Shopper Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        1        | Shopper   | Sort the list of products and services available for purchase | Easily identify them by rating, price and category |
 |        2        | Shopper   | Sort a specific category of product | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
-|        3        | Shopper   | Sort multiple categories of products and services on the same page | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
 |        4        | Shopper   | Easily see search results and number of results | Quickly determine if the store offers the product or service they need |
 |        5        | Shopper   | View list of products    | Select some to purchase|
 |        6        | Shopper   | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
