@@ -135,8 +135,53 @@ a.category-badge > span.badge:hover {
     }
 }
 
+
+/* product images */
 .product-image {
     width: 500px;
     height: 400px;
     object-fit: contain;
 }
+
+
+/* footer */
+.footer-container {
+    padding-top: 50px;
+}
+
+.container-wrapper--gray {
+    background-color: #F7DC6F;
+    color: #6c757d;
+}
+
+.container-wrapper--gray h4 {
+    color: #6c757d;
+}
+
+.container-wrapper--gray h5 {
+    color: #6c757d;
+}
+
+#footer-details {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+    color: #6c757d;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #fafafa;
+}
+
