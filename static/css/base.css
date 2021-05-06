@@ -115,16 +115,33 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-/* -------------------------------- Media Queries */
+/* -------Bootstrap Toasts -------*/
 
-/* Slightly larger container on xl screens */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* ------- Media Queries -------*/
+
+/* --- Slightly larger container on xl screens--- */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
   }
 }
 
-/* fixed top navbar only on medium and up */
+/* --- Fixed top navbar only on medium and up --- */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -139,7 +156,7 @@ a.category-badge > span.badge:hover {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* --- Pad the top a bit when navbar is collapsed on mobile --- */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 150px;
@@ -151,7 +168,7 @@ a.category-badge > span.badge:hover {
 }
 
 
-/* product images */
+/* --- Product images ---*/
 .product-image {
     width: 500px;
     height: 400px;
@@ -159,7 +176,7 @@ a.category-badge > span.badge:hover {
 }
 
 
-/* footer */
+/* --- Footer ---*/
 .footer-container {
     padding-top: 50px;
 }
