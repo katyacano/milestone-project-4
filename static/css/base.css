@@ -266,8 +266,15 @@ input[name='q']::placeholder {
     }
 }
 
+/* --- Do not show Home link on medium and up --- */
+@media (min-width: 992px) {
+    .hide-dt {
+        display: none;
+    }
+}
+
+
 /* --- Pad the top a bit when navbar is collapsed on mobile --- */
-/* pad the top a bit when navbar is collapsed on mobile */	
 @media (max-width: 991px) {	
     .header-container {	
         padding-top: 116px;	
@@ -303,7 +310,7 @@ input[name='q']::placeholder {
     .increment-qty, .decrement-qty {	
         padding: .25rem .5rem !important;	
     }
-
+}
 
 /* --- Product images ---*/
 .product-image {
@@ -318,16 +325,16 @@ input[name='q']::placeholder {
     padding-top: 50px;
 }
 
-.container-wrapper--gray {
+.container-wrapper--yellow {
     background-color: #F7DC6F;
     color: #6c757d;
 }
 
-.container-wrapper--gray h4 {
+.container-wrapper--yellow h4 {
     color: #6c757d;
 }
 
-.container-wrapper--gray h5 {
+.container-wrapper--yellow h5 {
     color: #6c757d;
 }
 
@@ -353,4 +360,3 @@ input[name='q']::placeholder {
 .social-links li a i:hover {
     background: #fafafa;
 }
-
