@@ -181,7 +181,7 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 [PEP 8 Online Validator:](http://pep8online.com/)
    - This validator was used to check Python code.
 
-[JSHint:](https://miniwebtool.com/django-secret-key-generator/)
+[JSHint:](https://jshint.com/)
    - This validator was used to check Javascript code. 
 
 <br/>
@@ -308,7 +308,9 @@ Defensive design and security features have been achieved by:
 - Validator: (https://jigsaw.w3.org/css-validator/)
 - **Outcome:** First test failed with various errors due to missing elements (paragraph and div) and Jinja syntax. Corrected errors. Second test passed with zero errors.
 
-
+#### **Javascript**
+- Validator: (https://jshint.com/)
+- **Outcome:** Tests of various javascript code passed with no errors. 
 
 <br/>
 <br/>
@@ -350,8 +352,9 @@ To deploy to Heroku use the following steps:
 8. Create a Procfile ($ echo web: python app.py > Procfile)
 9. Go back to Heroku, under Deploy find Existing Git repository and find corresponding Git repository by name. 
 10. In the app dashboard, under Settings click on Reveal Config Vars
-11. Set "MONGO_URI" and "MONGO_DBNAME" and "SECRET_KEY"
+11. Set "DATABASE_URL" and "SECRET_KEY".
 12. Once the build is complete, go to Domains section of Settings page and you will find a link to app.
+13. Other Config Vars you will set include: AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, EMAIL_HOST_PASS, EMAIL_HOST_USER, STRIPE_PUBLIC_KEY, STRIPE_SECRET_KEY, STRIPE_WH_SECRET, and USE_AWS.
 
 <br/>
 <br/>
@@ -359,8 +362,10 @@ To deploy to Heroku use the following steps:
 # Credits
 
 ## Code
- - [Materialize:](https://materializecss.com/) Materialize used throughout the project mainly to make site responsive. 
+ - [Bootsrap:](https://getbootstrap.com/) Boostrap was used throughout the project to rapidly achieve responsiveness. 
+ - [Bulma:](https://fontawesome.com/start) Bulma was used to ensure that Font Awesome icons were consistently sized and centered. 
  - [JQuery:](https://jquery.com/) jQuery was used to facilitate functionality of Bootstrap and other functions.
+ - [Code Institute:](https://codeinstitute.net/) Code Institute learning modules set the foundation for generating the code on this site. 
  
 <br/>
 
@@ -371,11 +376,10 @@ To deploy to Heroku use the following steps:
 
 ## Media
 Image sources are as follows:
-- Home page image was acquired from [Unsplash.com]( https://unsplash.com/). Photo #1: Jarritos Pineaple Taco Break. Photographer: Jarritos Corp.
-- Photo #2: People Eating a Meal Around a Table. Photographer: Priscilla Du Preez
-- Photo #3: Burgers Being Served. Photographer: Miha Rekar
-- Photo #4: Food Truck. Photographer: Should Wang
-Product images and descriptions were acquired from Amazon since this is a school project and will not be made public.
+- Home page image was acquired from [Unsplash.com]( https://unsplash.com/). 
+- About Us image was acquired from [Unsplash.com]( https://unsplash.com/). 
+- Photos of Daycare and Training services were acquired from [GoogleImages](https://www.google.com/search?q=images&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj0vs7rjYTxAhXxoFsKHXxVDmwQ_AUoAXoECAEQAw&biw=1920&bih=969).   
+- Product images and descriptions were acquired from [Amazon.com]( https://amazon.com/) since this is a school project and will not be made public.
 
 <br/>
 
