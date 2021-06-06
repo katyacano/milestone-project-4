@@ -60,7 +60,7 @@
 <br/>
 
 # Wireframe
-- View complete wireframe [here](https://github.com/katyacano/milestone-project-3/blob/master/wireframe/foodscapela-wireframe.pdf)
+- View complete wireframe [here](/wireframe/camp_rover_wireframe.pdf)
 
 <br/>
 <br/>
