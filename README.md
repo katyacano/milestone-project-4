@@ -94,11 +94,16 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 - Responsive on all device sizes
 - Interactive elements: 
     - Search bar
-    - Dining spots library
     - Register form
+    - Sign In/Out actions
+    - My Profile update form
     - Log in/ log out actions
-    - Log a new spot form
-    - Edit and delete spot actions
+    - Go to secure checkout 
+    - Adjust order option at checkout
+    - Secure checkout page
+    - Product management (Add a product) page for admin
+    - Edit product page for admin
+    - Edit/Delete options for each product (visible only to admin/superuser)
 
 <br/>
 <br/>
@@ -183,17 +188,23 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 
 
 # Database and Database Schema
-Postgres is the database used for storing user’s details and food spot review information. 
-There are three collections in the database- users, categories and spots. The schema is as follows:
-<td><img src="static/images/db_schema.jpg" alt="Database Schema Visual" style="width: 800px;"/></td>
+Postgres is the database used for storing product categories, product details, user’s profile details and previous order information. 
+The schema is as follows:
+<td><img src="static/images/db_schema/db_schema.jpg" alt="Database Schema Visual" style="width: 800px;"/></td>
 
 <br/>
 <br/>
 
 # Defensive Design (Security Features)
-- Werkzeug was used for password security. Specifically: generate_password_hash and check_password_hash
-- Users are not able to edit or delete other user's entries into the directory.
-- Site prevents visitors from adding a new spot without logging in by checking if user is in session. Redirects to log in page if no user in session.
+Defensive design and security features have been achieved by:
+- Utilizing inbuilt Django validation and authentication features
+- Assigning a specific Staff status to each user and only allowing those users labeled as Staff access to product management site features
+- Users must sign in to view order history and personal profile details
+- Users cannot view other users' previous order history and personal information
+- If a users tries to enter a url for a protected area of the site, the Django @login required decorator and superuser class will stop the action and flash a warning message stating that only store owners are allowed access to that area
+- If a user tries to checkout with an empty shopping bag, a warning messages lets them know that there is nothing in their shopping bag
+- Email fields with correct email structure are required fields for registering onto the site as a new user
+- When registering as a new user, a visitor is required to enter email and password twice to ensure they enter information correctly
 
 
 <br/>
@@ -203,36 +214,34 @@ There are three collections in the database- users, categories and spots. The sc
 
 ## Manual Testing
 
-### **Test-** Clicking FoodscapeLA logo should return user to home page
+### **Test-** Clicking Camp Rover logo should return user to home page
 - Result: Tested logo on all pages and action works as intended. No errors.
 
 ### **Test-** Clicking on navbar links should direct user to corresponding pages
-- Result: Tested all links, before and after logging in. Links work as intended. No errors.
+- Result: Tested all links (in desktop, tablet and mobile modes) before and after logging in. Links work as intended. No errors.
 
 ### **Test-** Entering required info on Register page and clicking on Register button should create a new user in database.
-- Result: Entered data for user 'joegagner'. Action completed as intended. No errors.
+- Result: Entered data for user 'testytest'. Action completed as intended. No errors.
 
-### **Test-** Entering valid user info on Log In page and clicking on Log In button should allow user access to app and direct user to Profile page.
+### **Test-** Entering valid user info on Log In page and clicking on Log In button should allow user access to app and direct user to Home page.
 - Result: Tested by entering info for all three current users. Action worked as intended. No errors. 
 
 ### **Test-** Entering invalid user info on  Log In page and clicking on Log In button should not grant access to app and flash an error message.
 - Result: Tested with three different user entries. Action works as intended. No errors. 
 
-### **Test-** Entering required information on Log A New Spot page should result in a new spot being added to database.
+### **Test-** Entering required information on Add Product page should result in a new product being added to database.
 - Result: Tested all entry fields. Action works as intended. No errors. 
 
-### **Test-** Missing any information on Log A New Spot page should result in error messages for each line that is missing or has insufficient characters.
+### **Test-** Missing any information on Add Product page should result in error messages for each line that is missing or has insufficient characters.
 - Result: Tested by entering various combinations of information/misinformation. Action works as intended. No errors.
 
-### **Test-** Edit/Delete buttons should only be visible to user if Spot has been entered by the user. 
-- Result: Tested with different users. Action works as intended. Users are not able to edit or delete Spots that they have not personally entered into the database. No errors.
+### **Test-** Edit/Delete buttons for each product should only be visible to super user designated as "Staff" in databse. 
+- Result: Tested with different users. Action works as intended. Users are not able to edit or delete products unless they are superusers. No errors.
 
-### **Test-** Search function should look for keyword matches in Type of Cuisine, Location Name, and Description. 
-- Result: Tested with various keywords from all fields. Action works as intended. When keyword was found in any of these three fields Search function returned a match. When keyword was found in other fields (ie. Address), no result was found and No Result message falshed. 
+### **Test-** Search function should look for keyword matches in category name, product, and product detail pages. 
+- Result: Tested with various keywords from all fields. Action works as intended. When keyword was found in any of these pages Search function returned a match. When keyword was found in other areas (ie. Username), no result was found and No Result message falshed. 
 
-### **Test-** Clicking Reset button should reload all Dining Spots on Home Page.
-- Result: Tested by doing a search and then clicking Reset button. Action works as intended. No errors.  
-  
+
 <br/>
 <br/>
 
@@ -280,7 +289,7 @@ There are three collections in the database- users, categories and spots. The sc
 
 
 ## Testing Responsiveness
-### Responsiveness of the app was tested using Google Dev tools. 
+### Responsiveness of the app was tested using Google Dev tools. The following issues were found and fixed accordingly:
 - **Issues Found:** When viewing in mobile phone view, Search, Reset, Edit and Delete buttons were pushed off center and distorted.
 - **Fix:** Changed and deleted class for div assigned to Search and Reset buttons. Applied separate div to Edit/Delete buttons. 
 - **Outcome:** Buttons and corresponding text on the side is properly aligned. 
@@ -290,50 +299,16 @@ There are three collections in the database- users, categories and spots. The sc
 
 # Code Validation
 
-## app.py 
-- Code: Python3
+### Code was validated using the following:
+#### **Python3**
 - Validator: (http://pep8online.com/)
-- **Outcome:** First test failed with 3 errors all pertaining to whitespace. Second test passed with zero errors.
+- **Outcome:** First test resulted in several errors pertaining to trailing whitespaces, line-too-long and various linting errors. Corrected all trailing whitespace and line-too-line errors possible. Ignored the linting errors on advice of tutor and Slack community.
 
-## style.css
-- Code: css
+#### **HTML & CSS**
 - Validator: (https://jigsaw.w3.org/css-validator/)
--**Outcome:** First test passed with zero errors.
+- **Outcome:** First test failed with various errors due to missing elements (paragraph and div) and Jinja syntax. Corrected errors. Second test passed with zero errors.
 
-## base.html 
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 25 errors due to Jinja code elemnets. No action taken to correct because this is how module was structured.
 
-## add_spot.html 
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 6 errors due to Jinja code elemnets. No action taken to correct because this is how module was structured.
-
-## edit_spot.html
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 10 errors. Some due to Jinja code elemnets. Second test failed with 6 errors. No further action taken to correct because this is how module was structured.
-
-## login.html
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 5 errors due to Jinja code elemnets. No action taken to correct because this is how module was structured.
-
-## profile.html
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 3 errors due to Jinja code elemnets. No action taken to correct because this is how module was structured.
-
-## register.html
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 5 errors due to Jinja code elemnets. No action taken to correct because this is how module was structured.
-
-## spots.html
-- Code: HTML5
-- Validator: (https://validator.w3.org/)
-- **Outcome:** First test failed with 17 errors due to Jinja code elemnets. No action taken to correct because this is how module was structured.
 
 <br/>
 <br/>
