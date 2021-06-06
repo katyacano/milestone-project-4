@@ -1,7 +1,9 @@
-# ** Camp Rover Ecommerce App **
+<td><img src="static/images/camp_rover_logo.jpg" alt="Database Schema Visual" style="width: 400px;"/></td>
 
-#### View Github Pages site [here](https://katyacano.github.io/milestone-project-3/)
-#### View Heroku deployed app [here](https://kc-milestone-3-project.herokuapp.com/)  
+## Camp Rover Ecommerce App 
+
+#### View Github Pages site [here](https://github.com/katyacano/milestone-project-4)
+#### View Heroku deployed app [here](https://kc-ms4-camp-rover.herokuapp.com/)  
 <br/>
 <br/>
 
@@ -11,18 +13,18 @@
 ## Shopper Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        2        | Shopper   | Sort a specific category of product | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
-|        4        | Shopper   | Easily see search results and number of results | Quickly determine if the store offers the product or service they need |
-|        5        | Shopper   | View list of products    | Select some to purchase|
-|        6        | Shopper   | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
-|        7        | Shopper   | Easily view the total amount of intended purhase  | Know how much they will be spending |
-|        8        | Shopper   | Be able to easily select the product or service they need, including (if applicable) the size and quantity| Make sure they purchase the right products and services|
-|        9        | Shopper   | View items ready for purchase in cart | Understand the total cost of their purchase and ensure they have the right items in cart|
-|        10       | Shopper   | Adjust the quantity of items within the cart  | Easily make changes to their intended purchase if needed |
-|        11       | Shopper   | Easily enter payment information | Complete the purchase|
-|        12       | Shopper   | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
-|        13       | Shopper   | View an order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
-|        14       | Shopper   | View specific categories of services or products| Quickly find the products they are interested in |
+|        1        | Shopper   | Sort a specific category of product | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
+|        2        | Shopper   | Easily see search results and number of results | Quickly determine if the store offers the product or service they need |
+|        3        | Shopper   | View list of products    | Select some to purchase|
+|        4        | Shopper   | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
+|        5        | Shopper   | Easily view the total amount of intended purhase  | Know how much they will be spending |
+|        6        | Shopper   | Be able to easily select the product or service they need, including (if applicable) the size and quantity| Make sure they purchase the right products and services|
+|        7        | Shopper   | View items ready for purchase in cart | Understand the total cost of their purchase and ensure they have the right items in cart|
+|        8       | Shopper   | Adjust the quantity of items within the cart  | Easily make changes to their intended purchase if needed |
+|        9       | Shopper   | Easily enter payment information | Complete the purchase|
+|        10       | Shopper   | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
+|        11       | Shopper   | View an order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
+|        12       | Shopper   | View specific categories of services or products| Quickly find the products they are interested in |
 
 <br/>
 
@@ -54,13 +56,34 @@
   - The font for the logo is Boogaloo from Google Fonts 
   - The font family used for this site will be Lato throughout the site, with San Serif as the fallback if such font family is not being imported. 
   ### Imagery 
-  - Imagery is very important on this app. It will be used to appeal to dog owners specifically and feature a variety of dogs. The images will be professional and acquired from Unsplash. Product images are very important and will be featured with a white background in order to show as much detail.  
+  - Imagery is very important on this app. It will be used to appeal to dog owners specifically and feature a variety of dogs. The images will be professional and acquired from Unsplash. Product images are very important and will be featured with a white background in order to show as much detail. Because this is a fictitious company created for this project, professional products images have been acquired from various Amazon.com product pages. 
 
 <br/>
 <br/>
 
-# Wireframe
-- View complete wireframe [here](/wireframe/camp_rover_wireframe.pdf)
+# Wireframes
+
+## Home Page
+<td>
+<img src="static/images/wireframes/homepage1.jpg" alt="Desktop Homepage Wireframe" style="width: 500px;"/> <img src="static/images/wireframes/homepage2.jpg" alt="Mobile Homepage Wireframe" style="height: 400px;"/>
+</td>
+
+<br/>
+<br/>
+
+## About Page
+<td>
+<img src="static/images/wireframes/about1.jpg" alt="Desktop About Wireframe" style="width: 500px;"/> <img src="static/images/wireframes/about2.jpg" alt="Mobile About Wireframe" style="height: 400px;"/>
+</td>
+
+<br/>
+<br/>
+
+## Product Pages
+Day Care, Training, Accessories and Special Offers pages will all have the following layouts on desktop and mobile devices.
+<td>
+<img src="static/images/wireframes/daycare1.jpg" alt="Desktop Day Care Wireframe" style="width: 500px;"/> <img src="static/images/wireframes/daycare2.jpg" alt="Mobile Day Care Wireframe" style="height: 400px;"/>
+</td>
 
 <br/>
 <br/>
@@ -76,6 +99,7 @@
     - Log a new spot form
     - Edit and delete spot actions
 
+<br/>
 <br/>
 <br/>
 
