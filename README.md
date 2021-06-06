@@ -87,6 +87,7 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 
 <br/>
 <br/>
+<br/>
 
 # Features
 
@@ -101,7 +102,7 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 
 <br/>
 <br/>
-<br/>
+
 
 # Technologies Used
 
@@ -110,7 +111,6 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [Javascript]( https://www.javascript.com/) 
 - [Python](https://www.python.org/)
-- [Django](https://www.djangoproject.com/)
 
 <br/>
 
@@ -119,8 +119,17 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 [Google Fonts:](https://fonts.google.com/)
    - Google fonts were used to import the Roboto font family into the style.css file which is used on all pages throughout the project.
 
+[Google:](https://www.google.com/)
+   - Google was used to find images for the Day Care, Training and Special Offers categories where and I was unable to find suitable images for other parts of the site. 
+
+[GMail:](https://mail.google.com/)
+   - Gmail was used to send confirmation emails (profile set-up, purchases, etc.)
+
 [Font Awesome:](https://fontawesome.com/start)
    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+[Bulma:](https://bulma.io/)
+   - Bulma was used to ensure that Font Awesome icons would stay consistently sized and centered.
 
 [Bootstrap:](https://getbootstrap.com/)
    - Bootstrap was used to assist with the responsiveness and styling of the website.
@@ -148,6 +157,27 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 
 [Amazon Web Services:](https://aws.amazon.com//)
    - Amazon Web Services was used to store static and media files.
+
+[Stripe:](https://stripe.com/)
+   - Stripe was used as the payment gatewway to process payments from customers on the site.
+
+[Django:](https://www.djangoproject.com/)
+   - Django was used as a framework to facilitate rapid site development.
+
+[TempMail:](https://temp-mail.org/)
+   - TempMail was used to create a temporary email to enable the creation of test profiles.
+
+[MiniWebTool:](https://miniwebtool.com/django-secret-key-generator/)
+   - MiniWebTool's Django Secret Key Generator was used to generate secret keys.
+
+[W3C Validator:](https://validator.w3.org/)
+   - This validator was used to check HTML and CSS.
+
+[PEP 8 Online Validator:](http://pep8online.com/)
+   - This validator was used to check Python code.
+
+[JSHint:](https://miniwebtool.com/django-secret-key-generator/)
+   - This validator was used to check Javascript code. 
 
 <br/>
 
