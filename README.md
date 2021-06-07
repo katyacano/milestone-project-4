@@ -24,7 +24,6 @@
 |        9       | Shopper   | Easily enter payment information | Complete the purchase|
 |        10       | Shopper   | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
 |        11       | Shopper   | View an order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
-|        12       | Shopper   | View specific categories of services or products| Quickly find the products they are interested in |
 
 <br/>
 
@@ -248,41 +247,40 @@ Defensive design and security features have been achieved by:
 
 ## Testing Shopper Goals (UX)  
 
-| User Story No. |  A User Should Be Able To  |  So That They Can  |
-| :-------------:| -------------------------- | ------------------ |
-|        1       | Sort the list of products and services available for purchase | Easily identify them by rating, price and category |
-|        2       | Sort a specific category of product | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
-|        3       | Sort multiple categories of products and services on the same page | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
-|        4       | Easily see search results and number of results | Quickly determine if the store offers the product or service they need |
-|        5       | View list of products    | Select some to purchase|
-|        6       | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
-|        7       | Easily view the total amount of intended purhase  | Know how much they will be spending |
-|        8       | Be able to easily select the product or service they need, including (if applicable) the size and quantity| Make sure they purchase the right products and services|
-|        9       | View items ready for purchase in cart | Understand the total cost of their purchase and ensure they have the right items in cart|
-|        10      | Adjust the quantity of items within the cart  | Easily make changes to their intended purchase if needed |
-|        11      | Easily enter payment information | Complete the purchase|
-|        12      | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
-|        13      | View and order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
+| User Story No.  |  A User Should Be Able To  |  Outcome  |
+| :-------------: |-------------------------- | ------------------ |
+|        1        | Sort a specific category of product | There are Day Care, Training, Accessories and Special Offers links in the main navigation bar for shopper to select a category. Some of these links contain interior links that further narrow a category. Tested links and all work as designed on desktop and mobile devices. 
+|        2        | Easily see search results and number of results | A Search link is located next to the Account link for easy access on any page within the site. Tested search function and it works as designed. |
+|        3        | View list of products    | There are Day Care, Training, Accessories and Special Offers links in the main navigation bar for shopper to view products. Tested all link and they work as designed.|
+|        4        | View individual product details | All products contain links to a product detail page that provides a description of the product, price, sizing and options to select quantity and add to shopping bag. Tested all products and all have a properly functioning product detail page. | 
+|        5        | Easily view the total amount of intended purhase  | There is a shopping bag icon link at the top right-hand side of the screen visible on all pages of the site. The total amount of the intended items for purchase currently in the shopping bag is listed below the item. Tested with various combination of items. All work as intended. |
+|        6        | Be able to easily select the product or service they need, including (if applicable) the size and quantity| Shoppers can select the items they wish to purchase in the Products and Services and pages which will then take them to the product detail pages where they can select the quantity, size (if applicable) and add to shopping bag. Tested on all products and they work as intended.|
+|        7        | View items ready for purchase in cart | Shoppers can click on the Shopping Bag icon in the top left corner of the page (visible on all pages of the site) to be directed to their shopping bag page. Tested with various orders, containing products and services from different categories, and functionality of Shopping Bag page works as intended.|
+|        8       | Adjust the quantity of items within the cart  | Shoppers can adjust the quantities, up or down, of the items in the Shopping Bag without leaving the page. They can also delete items they no longer wish to buy. Functionalities work as intended. |
+|        9       | Easily enter payment information | Shoppers can easily go to a secure checkout page from the Shopping Bag page by clicking the "Secure Checkout" button at the bottom of this page. Tested with various orders from different users and all works as intended.|
+|        10      | Have confidence in the security of my personal information | A shopper's payment for purchase is securely processed via the Stripe payment processor.|
+|        11      | View an order confirmation at the end of the transaction and receive a confirmation email | Once payment is complete the shopper will see a confirmation message on the same screen and this message informs them that they will also receive a confirmation email. Tested several orders using a test credit card from Stripe and all processed succesfully and received a confirmation email to the test shopper's email.  |
+
 
 <br/>
 
 ## Testing Visitor Goals (UX)
-| User Story No.  |  A User Should Be Able To  |  So That They Can  |
+| User Story No.  |  A User Should Be Able To  |  Outcome  |
 | :-------------: | -------------------------- | ------------------ |
-|        1        |   Register for an account and have a personal profile    | Have a personal site account where their personal information can be stored |
-|        2        |   Easily log in or out | Quickly access personal details of account, previous orders, etc. |
-|        3        |   Recover a lost or forgotten password  | Never lose access to shopping account and details |
-|        4        |   Receive an email confirmation of account setup    | Verify that account was set up correctly |
+|        1        |   Register for an account and have a personal profile    | There is a My Account icon at the top right-hand corner of the header that is visible from all pages on the site. There a new visitor is able to register for a new account by select "Register". Visitors who begin shopping before they register for an account are also able to register upon completion of their order at checkout. Tested with different users and orders and this function works as intended. |
+|        2        |   Easily log in or out | Visitors can easily log in or our of the site via the My Account icon at the top right-hand corner of the navigation, which is visible from all pages of the site. Tested various times and functionality works as intended. |
+|        3        |   Recover a lost or forgotten password  | Visitors can reset their password by clicking on "Forgot Password?" link located at the bottom of the Sign In page. |
+|        4        |   Receive an email confirmation of account setup    | New visitors that sign up for an account will receive a confirmation email sent by the store. Tested this functionality with various users, with real and temporary emails and this process works as intended. |
 
 
  <br/>
 
  ## Testing Site Owner Goals
-| User Story No.  |  A User Should Be Able To  |  So That They Can  |
+| User Story No.  |  A User Should Be Able To  |  Outcome  |
 | :-------------: | -------------------------- | ------------------ |
-|        1        | Add products    | Continously update the store with more products and services customers need and want|
-|        2        | Edit products | Change product and service details, prices, and descriptions as necessary | 
-|        3        | Delete a product  | Remove product and service offerings as needed |
+|        1        | Add products    | An admin or superuser can add new products from the front end and admin side of the site. From the front end, they can select "Product Management" from the drop down menu found under the My Account icon. This will only be visible if the user is a superuser and if they are logged in.|
+|        2        | Edit products | An admin or superuser can add new products from the front end and admin side of the site. From the front end,they can select the "Edit" link that is located below each product or service card and also within the Product Details page. This option is only visible to is the user is a superuser and if they are logged in. | 
+|        3        | Delete a product  | RAn admin or superuser can add new products from the front end and admin side of the site. From the front end,they can select the "Delete" link that is located below each product or service card and also within the Product Details page. This option is only visible to is the user is a superuser and if they are logged in. |
 
 <br/>
 <br/>
