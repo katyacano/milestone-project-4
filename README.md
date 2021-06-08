@@ -13,27 +13,27 @@
 ## Shopper Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        1        | Shopper   | Sort a specific category of product | Find the type of item they need to purchase, whether it be for day care, training services or accessories|
-|        2        | Shopper   | Easily see search results and number of results | Quickly determine if the store offers the product or service they need |
-|        3        | Shopper   | View list of products    | Select some to purchase|
-|        4        | Shopper   | View individual product details | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable) | 
-|        5        | Shopper   | Easily view the total amount of intended purhase  | Know how much they will be spending |
-|        6        | Shopper   | Be able to easily select the product or service they need, including (if applicable) the size and quantity| Make sure they purchase the right products and services|
-|        7        | Shopper   | View items ready for purchase in cart | Understand the total cost of their purchase and ensure they have the right items in cart|
-|        8       | Shopper   | Adjust the quantity of items within the cart  | Easily make changes to their intended purchase if needed |
-|        9       | Shopper   | Easily enter payment information | Complete the purchase|
-|        10       | Shopper   | Have confidence in the security of my personal information | Feel that my purchase is safe and that I can return to this site for future purchases|
-|        11       | Shopper   | View an order confirmation at the end of the transaction and receive a confirmation email | Know that the purchase is complete and be able to keep a record of it |
+|        1        | Shopper   | Sort a specific category of product. | Find the type of item they need to purchase, whether it be for day care, training services or accessories.|
+|        2        | Shopper   | Easily see search results and number of results. | Quickly determine if the store offers the product or service they need. |
+|        3        | Shopper   | View list of products.    | Select some to purchase.|
+|        4        | Shopper   | View individual product details. | Identify the price, description, product rating, product image (if applicable), and sizes (if applicable). | 
+|        5        | Shopper   | Easily view the total amount of intended purhase.  | Know how much they will be spending. |
+|        6        | Shopper   | Be able to easily select the product or service they need, including (if applicable) the size and quantity. | Make sure they purchase the right products and services. |
+|        7        | Shopper   | View items ready for purchase in cart. | Understand the total cost of their purchase and ensure they have the right items in cart.|
+|        8       | Shopper   | Adjust the quantity of items within the cart.  | Easily make changes to their intended purchase if needed. |
+|        9       | Shopper   | Easily enter payment information. | Complete the purchase.|
+|        10       | Shopper   | Have confidence in the security of my personal information. | Feel that my purchase is safe and that I can return to this site for future purchases.|
+|        11       | Shopper   | View an order confirmation at the end of the transaction and receive a confirmation email. | Know that the purchase is complete and be able to keep a record of it. |
 
 <br/>
 
 ## Visitor Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        1        | Visitor   |   Register for an account and have a personal profile    | Have a personal site account where their personal information can be stored |
-|        2        | Visitor   | Easily log in or out | Quickly access personal details of account, previous orders, etc. |
-|        3        | Visitor   |   Recover a lost or forgotten password  | Never lose access to shopping account and details |
-|        4        | Visitor   |   Receive an email confirmation of account setup    | Verify that account was set up correctly |
+|        1        | Visitor   |   Register for an account and have a personal profile.   | Have a personal site account where their personal information can be stored. |
+|        2        | Visitor   | Easily log in or out. | Quickly access personal details of account, previous orders, etc. |
+|        3        | Visitor   |   Recover a lost or forgotten password.  | Never lose access to shopping account and details. |
+|        4        | Visitor   |   Receive an email confirmation of account setup.| Verify that account was set up correctly. |
 
 
  <br/>
@@ -41,21 +41,21 @@
  ## Site Owner Goals
 | User Story No.  |  As A/An  |  A User Should Be Able To  |  So That They Can  |
 | :-------------: | --------- | -------------------------- | ------------------ |
-|        1        | Owner   | Add products    | Continously update the store with more products and services customers need and want|
-|        2        | Owner   | Edit products | Change product and service details, prices, and descriptions as necessary | 
-|        3        | Owner   | Delete a product  | Remove product and service offerings as needed |
+|        1        | Owner   | Add products.    | Continously update the store with more products and services customers need and want.|
+|        2        | Owner   | Edit products. | Change product and service details, prices, and descriptions as necessary. | 
+|        3        | Owner   | Delete a product.  | Remove product and service offerings as needed. |
 
  <br/>
 
 # Design
 
   ### Color Scheme
-  - The main colors used will be black, gray, white, and a yellow variant (specifically, #F7DC6F).
+  - The main colors used will be black, gray, white, and a yellow variant (specifically, #F7DC6F)
   ### Typography
   - The font for the logo is Boogaloo from Google Fonts 
-  - The font family used for this site will be Lato throughout the site, with San Serif as the fallback if such font family is not being imported. 
+  - The font family used for this site will be Lato throughout the site, with San Serif as the fallback if such font family is not being imported 
   ### Imagery 
-  - Imagery is very important on this app. It will be used to appeal to dog owners specifically and feature a variety of dogs. The images will be professional and acquired from Unsplash. Product images are very important and will be featured with a white background in order to show as much detail. Because this is a fictitious company created for this project, professional products images have been acquired from various Amazon.com product pages. 
+  - Imagery is very important on this app. It will be used to appeal to dog owners specifically and feature a variety of dogs. The images will be professional and acquired from Unsplash. Product images are very important and will be featured with a white background in order to show as much detail. Because this is a fictitious company created for this project, professional products images have been acquired from various Amazon.com product pages 
 
 <br/>
 <br/>
@@ -121,67 +121,67 @@ Day Care, Training, Accessories and Special Offers pages will all have the follo
 ## Frameworks, Libraries & Programs Used
 
 [Google Fonts:](https://fonts.google.com/)
-   - Google fonts were used to import the Roboto font family into the style.css file which is used on all pages throughout the project.
+   - Google fonts were used to import the Roboto font family into the style.css file which is used on all pages throughout the project
 
-[Google:](https://www.google.com/)
-   - Google was used to find images for the Day Care, Training and Special Offers categories where and I was unable to find suitable images for other parts of the site. 
+[GoogleImages:](https://www.google.com/)
+   - Google was used to find images for the Day Care, Training and Special Offers categories where and I was unable to find suitable images for other parts of the site 
 
 [GMail:](https://mail.google.com/)
    - Gmail was used to send confirmation emails (profile set-up, purchases, etc.)
 
 [Font Awesome:](https://fontawesome.com/start)
-   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+   - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes
 
 [Bulma:](https://bulma.io/)
-   - Bulma was used to ensure that Font Awesome icons would stay consistently sized and centered.
+   - Bulma was used to ensure that Font Awesome icons would stay consistently sized and centered
 
 [Bootstrap:](https://getbootstrap.com/)
-   - Bootstrap was used to assist with the responsiveness and styling of the website.
+   - Bootstrap was used to assist with the responsiveness and styling of the website
 
 [jQuery:](https://jquery.com/)
-   - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+   - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript
 
 [Git:](https://git-scm.com/)
-   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+   - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub
 
 [GitHub:](https://github.com/)
-   - GitHub is used to store the projects code after being pushed from Git.
+   - GitHub is used to store the projects code after being pushed from Git
 
 [Balsamiq:](https://balsamiq.com/)
-   - Balsamiq was used to create the wireframes during the design process.
+   - Balsamiq was used to create the wireframes during the design process
 
 [PicResize:](https://picresize.com/)
-   - PicResize was used to resize the Home page image.
+   - PicResize was used to resize the Home page image
 
 [Postgres:](https://www.postgresql.org/)
-   - Postgres was used for the app database and to store collected data.
+   - Postgres was used for the app database and to store collected data
 
 [Heroku:](https://www.heroku.com/)
-   - Heroku was used to deploy the application.
+   - Heroku was used to deploy the application
 
 [Amazon Web Services:](https://aws.amazon.com//)
-   - Amazon Web Services was used to store static and media files.
+   - Amazon Web Services was used to store static and media files
 
 [Stripe:](https://stripe.com/)
-   - Stripe was used as the payment gatewway to process payments from customers on the site.
+   - Stripe was used as the payment gatewway to process payments from customers on the site
 
 [Django:](https://www.djangoproject.com/)
-   - Django was used as a framework to facilitate rapid site development.
+   - Django was used as a framework to facilitate rapid site development
 
 [TempMail:](https://temp-mail.org/)
-   - TempMail was used to create a temporary email to enable the creation of test profiles.
+   - TempMail was used to create a temporary email to enable the creation of test profiles
 
 [MiniWebTool:](https://miniwebtool.com/django-secret-key-generator/)
-   - MiniWebTool's Django Secret Key Generator was used to generate secret keys.
+   - MiniWebTool's Django Secret Key Generator was used to generate secret keys
 
 [W3C Validator:](https://validator.w3.org/)
-   - This validator was used to check HTML and CSS.
+   - This validator was used to check HTML and CSS
 
 [PEP 8 Online Validator:](http://pep8online.com/)
-   - This validator was used to check Python code.
+   - This validator was used to check Python code
 
 [JSHint:](https://jshint.com/)
-   - This validator was used to check Javascript code. 
+   - This validator was used to check Javascript code 
 
 <br/>
 
@@ -200,7 +200,7 @@ Defensive design and security features have been achieved by:
 - Assigning a specific Staff status to each user and only allowing those users labeled as Staff access to product management site features
 - Users must sign in to view order history and personal profile details
 - Users cannot view other users' previous order history and personal information
-- If a users tries to enter a url for a protected area of the site, the Django @login required decorator and superuser class will stop the action and flash a warning message stating that only store owners are allowed access to that area
+- If a user tries to enter a url for a protected area of the site, the Django @login required decorator and superuser class will stop the action and flash a warning message stating that only store owners are allowed access to that area
 - If a user tries to checkout with an empty shopping bag, a warning messages lets them know that there is nothing in their shopping bag
 - Email fields with correct email structure are required fields for registering onto the site as a new user
 - When registering as a new user, a visitor is required to enter email and password twice to ensure they enter information correctly
@@ -213,10 +213,10 @@ Defensive design and security features have been achieved by:
 
 ## Manual Testing
 
-### **Test-** Clicking Camp Rover logo should return user to home page
+### **Test-** Clicking Camp Rover logo should return user to home page.
 - Result: Tested logo on all pages and action works as intended. No errors.
 
-### **Test-** Clicking on navbar links should direct user to corresponding pages
+### **Test-** Clicking on navbar links should direct user to corresponding pages.
 - Result: Tested all links (in desktop, tablet and mobile modes) before and after logging in. Links work as intended. No errors.
 
 ### **Test-** Entering required info on Register page and clicking on Register button should create a new user in database.
@@ -234,7 +234,7 @@ Defensive design and security features have been achieved by:
 ### **Test-** Missing any information on Add Product page should result in error messages for each line that is missing or has insufficient characters.
 - Result: Tested by entering various combinations of information/misinformation. Action works as intended. No errors.
 
-### **Test-** Edit/Delete buttons for each product should only be visible to super user designated as "Staff" in databse. 
+### **Test-** Edit/Delete buttons for each product should only be visible to super user designated as "Staff" in database. 
 - Result: Tested with different users. Action works as intended. Users are not able to edit or delete products unless they are superusers. No errors.
 
 ### **Test-** Search function should look for keyword matches in category name, product, and product detail pages. 
@@ -288,9 +288,13 @@ Defensive design and security features have been achieved by:
 
 ## Testing Responsiveness
 ### Responsiveness of the app was tested using Google Dev tools. The following issues were found and fixed accordingly:
-- **Issues Found:** When viewing in mobile phone view, Search, Reset, Edit and Delete buttons were pushed off center and distorted.
-- **Fix:** Changed and deleted class for div assigned to Search and Reset buttons. Applied separate div to Edit/Delete buttons. 
-- **Outcome:** Buttons and corresponding text on the side is properly aligned. 
+| Issue Found  |  Fix Applied  |  Outcome  |
+| ------------- | -------------------------- | ------------------ |
+| When viewing in mobile phone view, Search, Account, and Shopping Bag links were pushed off center and distorted. | Changed and deleted class for div assigned to links. Applied boostrap classes to specific div. | Links and corresponding text on the side is properly aligned. |
+| Heroku updated database and in the process changed the postgres database url causing data from local version sql database to not be transferred over to Heroku app on load data command. | Worked with tutor support to identify the issue. Deleted original json file containing database and dumped data once more into new db.json file. Copied new postgres database url to camp_rover/settings.py file and in Heroku Config Vars settings. Once again entered command to load data to Heroku app. | Data transfer was successful. |
+| Some product images were broken during new data transfer from development version. | Reviewed image files in deployed app's admin panel and discovered that in data transfer some image file names were transferred over with random characters at the end of the file name, thereby breaking the link. Via the admin panel, manually changed each file name for images that were broken. | No broken images observed. |
+| Deployed app loaded very slowly. | Reviewed image file sizes and discovered that Home page and About Us page images as well as some product images were too large. Used PicResize to resize those images, deleted original files from AWS S3 storage and replaced with smaller files. | App loads much faster. |
+
   
 <br/>
 <br/>
@@ -357,32 +361,47 @@ To deploy to Heroku use the following steps:
 <br/>
 <br/>
 
+# Future Development
+
+## Future development goals for this site include:
+ - More products in the Accessories categories
+ - More service offerings including overnight boarding, grooming and additional training options
+ - Log in via Facebook
+ - The ability to add user's photo to Profile page
+ - The ability to add a user's pet info within their profile page (pet name, breed, photo, etc.)
+ - Ability for a user to rate a product or service offering
+ - Ability for a user to store their commonly purchased products or services in a Favorites folder for quick access
+
+<br/>
+<br/>
+
 # Credits
 
 ## Code
- - [Bootsrap:](https://getbootstrap.com/) Boostrap was used throughout the project to rapidly achieve responsiveness. 
- - [Bulma:](https://fontawesome.com/start) Bulma was used to ensure that Font Awesome icons were consistently sized and centered. 
- - [JQuery:](https://jquery.com/) jQuery was used to facilitate functionality of Bootstrap and other functions.
- - [Code Institute:](https://codeinstitute.net/) Code Institute learning modules set the foundation for generating the code on this site. 
+ - [Bootsrap:](https://getbootstrap.com/) Boostrap was used throughout the project to rapidly achieve responsiveness 
+ - [Bulma:](https://fontawesome.com/start) Bulma was used to ensure that Font Awesome icons were consistently sized and centered 
+ - [JQuery:](https://jquery.com/) jQuery was used to facilitate functionality of Bootstrap and other functions
+ - [StackOverflow:](https://stackoverflow.com//) Stack Overflow was instrumental in solving code issues like dynamically changing page titles, breaking line-too-long Flake8 errors, and centering icons in mobile view
+ - [Code Institute:](https://codeinstitute.net/) Code Institute learning modules set the foundation for generating the code on this site
  
 <br/>
 
 ## Content
-  - All content, except as otherwise already noted here, was written by the developer.
+  - All content, except as otherwise already noted here, was written by the developer
 
 <br/>
 
 ## Media
 Image sources are as follows:
-- Home page image was acquired from [Unsplash.com]( https://unsplash.com/). 
-- About Us image was acquired from [Unsplash.com]( https://unsplash.com/). 
-- Photos of Daycare and Training services were acquired from [GoogleImages](https://www.google.com/search?q=images&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj0vs7rjYTxAhXxoFsKHXxVDmwQ_AUoAXoECAEQAw&biw=1920&bih=969).   
-- Product images and descriptions were acquired from [Amazon.com]( https://amazon.com/) since this is a school project and will not be made public.
+- Home page image was acquired from [Unsplash.com]( https://unsplash.com/) 
+- About Us image was acquired from [Unsplash.com]( https://unsplash.com/) 
+- Photos of Daycare and Training services were acquired from [GoogleImages](https://www.google.com/search?q=images&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj0vs7rjYTxAhXxoFsKHXxVDmwQ_AUoAXoECAEQAw&biw=1920&bih=969)   
+- Product images and descriptions were acquired from [Amazon.com]( https://amazon.com/) since this is a school project and will not be made public
 
 <br/>
 
 ## Acknowledgements
-  - My Mentor Brian for continuous helpful feedback.
-  - Tutor Support at Code Institute for their support.
-  - CI Slack community for their ongoing assistance.
+- My Mentor Brian for continuous helpful feedback
+- Tutor Support at Code Institute for their support
+- CI Slack community for their ongoing assistance
 
