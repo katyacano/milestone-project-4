@@ -1,8 +1,8 @@
-<td><img src="static/images/camp_rover_logo.jpg" alt="Database Schema Visual" style="width: 400px;"/></td>
+<td><img src="static/images/camp_rover_logo.jpg" alt="Camp Rover Logo" style="width: 400px;"/></td>
 
 ## Camp Rover Ecommerce App 
 
-#### View Github Pages site [here](https://github.com/katyacano/milestone-project-4)
+#### View Github Pages site [here](https://katyacano.github.io/milestone-project-4/)
 #### View Heroku deployed app [here](https://kc-ms4-camp-rover.herokuapp.com/)  
 <br/>
 <br/>
@@ -323,10 +323,10 @@ Defensive design and security features have been achieved by:
 
 1. Log in to GitHub and locate your GitHub Repository. For this particular project the name is **milestone-project-4**.
 2. At the top of the Repository, find the "Settings" button and select it. 
-3. Scroll down the Settings page and find "GitHub Pages" section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
+3. Scroll down the Settings page and find "GitHub Pages" section. Click on "Pages settings now has its own dedicated tab! Check it out here!" 
+4. Under "Source", click the dropdown called "None" and select "Master Branch" and click "Save" button that pops up.
 5. The page should automatically refresh but if it doesn't, refresh the page.
-6. Scroll back down through the page to the same section and find a published site link.
+6. Click on "Your site is ready to be published at https://katyacano.github.io/milestone-project-4/" that appears after refresh.
 
 **To clone this repository use the following steps:**
 
